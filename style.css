@@ -31,14 +31,24 @@ Celtics colors: #008248, #ba9653, #ffffff;
  }
 
  header {
- 	padding-left: 0;
- 	padding-right: 0;
+ 	background: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: fixed;
+ 	margin-left: 0;
+ 	margin-right: 0;
  }
 
 section {
 	padding-top: 10%;
 	padding-bottom: 10%;
 	border-bottom: 1px solid black;
+	background: #f3f3f3;
 }
 
 section h1 {
@@ -78,31 +88,41 @@ footer {
 
 /* Headings */
 .jumbotron {
-	background: url("img/bg.jpg");
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	background-position: fixed;
-	padding-top: 25%;
+	border-radius: none;
+	background: rgba(0, 35, 70, .7);
+	padding-top: 15%;
 	padding-bottom: 25%;
-
+	margin-bottom: 0;
 }
 
-.jumbotron h1, .jumbotron p, .jumbotron h2 {
+.intro-text {
 	color: white;
 	text-align: center;
-	background: black;
+	padding: 5%;
 }
+
+.intro-text h1 {
+	font-size: 5em;
+}
+
+.intro-text h2 {
+	font-size: 2em;
+}
+
+
 /* List */
 li 	{
 	list-style: none;
 }
 
 /* Images */
+.img-link {
+	height: 100px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .logo {
 	height: 250px;
 	width: auto;

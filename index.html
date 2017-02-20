@@ -7,72 +7,98 @@
 		<link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
-		<header class="container-fluid">
+	<body id="page-top">
+		<header>
 			<div class="jumbotron">
-				<h2>Welcome to the</h2>
-				<h1>City of Champions</h1>
-				<p>The city with the most Championships of this millenium</p>
+				<div class="intro-text">
+					<h2>Welcome to the</h2>
+					<h1>City of Champions</h1>
+					<p>The city with the most Championships of this millenium.</p>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-3">
+							<a href="#patriots" class="page-scroll"><img class="img-responsive img-link" src="img/patriots.png"></a>
+						</div>
+						<div class="col-xs-3">
+							<a href="#bruins" class="page-scroll"><img class="img-responsive img-link" src="img/bruins.png"></a>
+						</div>
+						<div class="col-xs-3">
+							<a href="#redsox" class="page-scroll"><img class="img-responsive img-link" src="img/redsox.png"></a>
+						</div>
+						<div class="col-xs-3">
+							<a href="#celtics" class="page-scroll"><img class="img-responsive img-link" src="img/celtics.png"></a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</header>
 
-		<section id="patriots" class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<img class="img-responsive logo">
-					<img class="img-responsive star">
-				</div>
-				<div class="col-md-6">
-					<h1 class="team-name">%data%</h1>
-					<h3>Championships</h3>
-					<ul class="championships"></ul>
-					<h3>Facts</h3>
-					<ul class="facts"></ul>
-				</div>
-			</div>
-		</section>
-		<section id="bruins" class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h1 class="team-name">%data%</h1>
-					<h3>Championships</h3>
-					<ul class="championships"></ul>
-					<h3>Facts</h3>
-					<ul class="facts"></ul>
-				</div>
-				<div class="col-md-6">
-					<img class="img-responsive logo">
-					<img class="img-responsive star">
+		<section id="patriots">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive logo">
+						<img class="img-responsive star">
+					</div>
+					<div class="col-md-6">
+						<h1 class="team-name">%data%</h1>
+						<h3>Championships</h3>
+						<ul class="championships"></ul>
+						<h3>Facts</h3>
+						<ul class="facts"></ul>
+					</div>
 				</div>
 			</div>
 		</section>
-		<section id="redsox" class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<img class="img-responsive logo"">
-					<img class="img-responsive star">
-				</div>
-				<div class="col-md-6">
-					<h1 class="team-name">%data%</h1>
-					<h3>Championships</h3>
-					<ul class="championships"></ul>
-					<h3>Facts</h3>
-					<ul class="facts"></ul>
+		<section id="bruins">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1 class="team-name">%data%</h1>
+						<h3>Championships</h3>
+						<ul class="championships"></ul>
+						<h3>Facts</h3>
+						<ul class="facts"></ul>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive logo">
+						<img class="img-responsive star">
+					</div>
 				</div>
 			</div>
 		</section>
-		<section id="celtics" class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h1 class="team-name">%data%</h1>
-					<h3>Championships</h3>
-					<ul class="championships"></ul>
-					<h3>Facts</h3>
-					<ul class="facts"></ul>
+		<section id="redsox">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-responsive logo">
+						<img class="img-responsive star">
+					</div>
+					<div class="col-md-6">
+						<h1 class="team-name">%data%</h1>
+						<h3>Championships</h3>
+						<ul class="championships"></ul>
+						<h3>Facts</h3>
+						<ul class="facts"></ul>
+					</div>
 				</div>
-				<div class="col-md-6">
-					<img class="img-responsive logo">
-					<img class="img-responsive star">
+			</div>
+		</section>
+		<section id="celtics">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h1 class="team-name">%data%</h1>
+						<h3>Championships</h3>
+						<ul class="championships"></ul>
+						<h3>Facts</h3>
+						<ul class="facts"></ul>
+					</div>
+					<div class="col-md-6">
+						<img class="img-responsive logo">
+						<img class="img-responsive star">
+					</div>
 				</div>
 			</div>
 		</section>
@@ -81,7 +107,9 @@
 			<p>Project Site. Does Not Represent Any Organizations Projected Above. All Rights Reserved. </p>
 		</footer>
 		
+		<!-- Plugin JavaScript -->
 		<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="script.js"></script>
 	</body>
