@@ -47,7 +47,6 @@ Celtics colors: #008248, #ba9653, #ffffff;
 section {
 	padding-top: 10%;
 	padding-bottom: 10%;
-	border-bottom: 1px solid black;
 	background: #f3f3f3;
 }
 
@@ -145,6 +144,8 @@ li 	{
 
 
 /* Other */
-
+.hide-item {			/* Sets opacity to 0 fro scroll effect */
+	opacity: 0;
+}
 /* Media queries */
 
