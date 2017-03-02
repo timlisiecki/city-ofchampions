@@ -67,16 +67,41 @@ footer {
 	
 }
 
+#patriots .bg-color {
+	background: #c0001d;
+	padding: 5% 0;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); 
+	/* (top-left x y, top-right x y, bottom-right x y, bottom-left x y) */
+}
+
 #bruins {
 	color: #231f20;
+}
+
+#bruins .bg-color {
+	background: #ffc422;
+	padding: 5% 0;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 #redsox {
 	color: #c62033;
 }
 
+#redsox .bg-color {
+	background: #002244;
+	padding: 5% 0;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
 #celtics {
 	color: #008248;
+}
+
+#celtics .bg-color {
+	background: #ba9653;
+	padding: 5% 0;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 
@@ -102,6 +127,7 @@ footer {
 
 .intro-text h1 {
 	font-size: 5em;
+	font-family: "Orbitron";
 }
 
 .intro-text h2 {
@@ -125,10 +151,17 @@ li 	{
 .logo {
 	height: 250px;
 	width: auto;
+	position: relative;
+	z-index: -1;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	margin-right: 0;
 }
 
 .star {
 	margin-top: -200px;
+	position: relative;
+	z-index: 1;
 }
 
 /* Links */
