@@ -70,6 +70,7 @@ footer {
 #patriots .bg-color {
 	background: #c0001d;
 	padding: 5% 0;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); 
 	/* (top-left x y, top-right x y, bottom-right x y, bottom-left x y) */
 }
@@ -81,6 +82,7 @@ footer {
 #bruins .bg-color {
 	background: #ffc422;
 	padding: 5% 0;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
@@ -91,6 +93,7 @@ footer {
 #redsox .bg-color {
 	background: #002244;
 	padding: 5% 0;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 
@@ -101,6 +104,7 @@ footer {
 #celtics .bg-color {
 	background: #ba9653;
 	padding: 5% 0;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
