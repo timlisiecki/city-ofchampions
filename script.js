@@ -14,7 +14,12 @@ var Team = function(id, name, facts, champs, image, logo, star) {
 var patriots =  new Team(
 	"patriots",
 	"New England Patriots",
-	["Tom Brady is G.O.A.T", "Bill and Tom are BFFs", "Gronk Spike Heard Around the World"],
+	[
+		"Franchise Granted: November 22, 1959 as the Boston Patriots.", 
+		"Changed name to New England Patriots in 1971", 
+		"Stadium: Gillette Stadium",
+		"Championships before 2000: 0"
+	],
 	[2001, 2004, 2005, 2015, 2017],
 	"img/brady.png",
 	"img/patriots.png",
@@ -24,31 +29,46 @@ var patriots =  new Team(
 var bruins = new Team(
 	"bruins",
 	"Boston Bruins",
-	["Montreal Canadiens are the biggest rival", "Chara is captain", "Pastrnak dangles"],
+	[
+		"Franchise Granted: October 11, 1924 as the Boston Bruins.", 
+		"Rivalry with Montreal Canadiens is one of the oldest sports rivalries of all time.", 
+		"Arena: TD Garden",
+		"Championships before 2000: 1929, 1939, 1941, 1970, 1972"
+	],
 	[2011],
 	"img/krejci.png",
 	"img/bruins.png",
 	"krejci"
 );
 
-var celtics = new Team(
-	"celtics",
-	"Boston Celtics",
-	["Famous for the 'Big Three'", "Bill and Tom are BFFs", "Holds many championships in the past"],
-	[2008],
-	"img/pierce.png",
-	"img/celtics.png",
-	"pierce"
-);
-
 var redsox = new Team(
 	"redsox",
 	"Boston Red Sox",
-	["Broke the curse in 2004", "David Ortiz is the greatest", "One of America's oldest sports teams"],
+	[
+		"Franchise Granted: 1901 as the Boston Americans.", 
+		"Changed name to Boston Red Sox in 1908.", 
+		"Park: Fenway Park",
+		"Championships before 2000: 1903, 1912, 1915, 1916, 1918"
+	],
 	[2004, 2007, 2013],
 	"img/ortiz.png",
 	"img/redsox.png",
 	"ortiz"
+);
+
+var celtics = new Team(
+	"celtics",
+	"Boston Celtics",
+	[
+		"Franchise Granted: June 6, 1946 as the Boston Celtics.", 
+		"Most titles of any NBA franchise, accounting for almost a quarter of all championships since league's founding.", 
+		"Stadium: TD Garden",
+		"Championships before 2000: 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969, 1974, 1976, 1981, 1984, 1986"
+	],
+	[2008],
+	"img/pierce.png",
+	"img/celtics.png",
+	"pierce"
 );
 
 var teams = [patriots, bruins, celtics, redsox];
